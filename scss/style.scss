@@ -1,0 +1,22 @@
+// Imports
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import'Components/header.scss';
+@import 'Components/cards.scss';
+@import 'Components/navbar.scss';
+@import 'Components/Animations/hover.scss';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+.left {
+  width: 40%;
+  height: 30vh;
+  .img_hero {
+    height: auto;
+    border-radius: 17px;
+    width: 650px;
+    background-color: #4960b6;
+  }
+}

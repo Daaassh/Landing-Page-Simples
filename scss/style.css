@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.header {
+  width: 100vw;
+  height: 40vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  width: 60%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin-top: 120px;
+  margin-left: 250px;
+  width: 750px;
+  height: 600px;
+}
+
+.informations h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+.informations p {
+  font-size: 23px;
+  color: #4d4d4d;
+}
+.informations .buttons_header {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.informations .buttons_header a {
+  text-decoration: none;
+  color: #4960b6;
+  font-size: 21px;
+  margin-left: 24px;
+}
+.informations .buttons_header button {
+  color: white;
+  font-size: 21px;
+  cursor: pointer;
+  width: 50%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00acee;
+}
+.informations .buttons_header button .imgs {
+  position: absolute;
+  left: 278px;
+  width: 35px;
+}
+.informations .users {
+  margin-top: 250px;
+  display: table-row;
+  justify-content: space-around;
+  align-items: center;
+}
+.informations .users img {
+  transform: translateX(-50px);
+  width: 50px;
+}
+.informations .footer {
+  margin-top: 20px;
+  color: #4d4d4d;
+}
+.informations .footer a {
+  color: #00acee;
+  text-decoration: none;
+}
+
+.navbar .buttons_navbar {
+  margin-right: 300px;
+  font-size: 21px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .buttons_navbar button {
+  background-color: #00acee;
+  border-radius: 4px;
+  padding: 14px;
+  width: 15vw;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  border: none;
+  box-shadow: none;
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.navbar .buttons_navbar button img {
+  width: 35px;
+  margin-right: 30px;
+}
+.navbar .buttons_navbar button:hover {
+  background-color: #187092;
+}
+
+.navbar {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 24px;
+  justify-content: space-between;
+}
+.navbar .logo {
+  color: #187092;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 250px;
+}
+.navbar a {
+  margin-right: 20px;
+  margin-top: 20px;
+  color: #5f5f5f;
+  text-decoration: none;
+}
+
+.navbar .buttons_navbar a {
+  transition: color 0.3s;
+}
+.navbar .buttons_navbar a:hover {
+  color: #232e58;
+}
+
+.informations .buttons_header a {
+  transition: color 0.3s;
+}
+.informations .buttons_header a:hover {
+  color: #0b0e18;
+}
+.informations .buttons_header button {
+  transition: background-color 0.3s;
+}
+.informations .buttons_header button:hover {
+  background-color: #0075a3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.left {
+  width: 40%;
+  height: 30vh;
+}
+.left .img_hero {
+  height: auto;
+  border-radius: 17px;
+  width: 650px;
+  background-color: #4960b6;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+.navbar {
+  .buttons_navbar {
+    a {
+      transition: color 0.3s;
+    }
+    a:hover {
+      color: #232e58;
+    }
+  }
+}
+.informations .buttons_header {
+  a {
+    transition: color 0.3s;
+  }
+  a:hover {
+    color: #0b0e18;
+  }
+  button {
+    transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #0075a3;
+  }
+}
